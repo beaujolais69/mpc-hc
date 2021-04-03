@@ -215,6 +215,8 @@ extern "C" __declspec(dllexport) int GetIconIndex(LPCTSTR ext)
         iconIndex = IDI_OGV_ICON;
     } else if (_tcsicmp(ext, _T(".opus")) == 0) {
         iconIndex = IDI_OPUS_ICON;
+    } else if (_tcsicmp(ext, _T(".other")) == 0) {
+        iconIndex = IDI_OTHER_ICON;   
     } else if (_tcsicmp(ext, _T(".pls")) == 0) {
         iconIndex = IDI_PLS_ICON;
     } else if (_tcsicmp(ext, _T(".pva")) == 0) {
