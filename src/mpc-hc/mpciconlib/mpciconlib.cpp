@@ -81,8 +81,14 @@ extern "C" __declspec(dllexport) int GetIconIndex(LPCTSTR ext)
         iconIndex = IDI_BDMV_ICON;
     } else if (_tcsicmp(ext, _T(".bik")) == 0) {
         iconIndex = IDI_BIK_ICON;
+    } else if (_tcsicmp(ext, _T(".caf")) == 0) {
+        iconIndex = IDI_CAF_ICON;
     } else if (_tcsicmp(ext, _T(".cda")) == 0) {
         iconIndex = IDI_CDA_ICON;
+    } else if (_tcsicmp(ext, _T(".cue")) == 0) {
+        iconIndex = IDI_CUE_ICON;
+    } else if (_tcsicmp(ext, _T(".dav")) == 0) {
+        iconIndex = IDI_DAV_ICON;
     } else if (_tcsicmp(ext, _T(".divx")) == 0) {
         iconIndex = IDI_DIVX_ICON;
     } else if (_tcsicmp(ext, _T(".dsa")) == 0) {
@@ -99,6 +105,8 @@ extern "C" __declspec(dllexport) int GetIconIndex(LPCTSTR ext)
         iconIndex = IDI_DTSHD_ICON;
     } else if (_tcsicmp(ext, _T(".dtsma")) == 0) {
         iconIndex = IDI_DTSMA_ICON;
+    } else if (_tcsicmp(ext, _T(".dv")) == 0) {
+        iconIndex = IDI_DV_ICON;
     } else if (_tcsicmp(ext, _T(".evo")) == 0) {
         iconIndex = IDI_EVO_ICON;
     } else if (_tcsicmp(ext, _T(".f4v")) == 0) {
@@ -151,6 +159,8 @@ extern "C" __declspec(dllexport) int GetIconIndex(LPCTSTR ext)
         iconIndex = IDI_MID_ICON;
     } else if (_tcsicmp(ext, _T(".midi")) == 0) {
         iconIndex = IDI_MIDI_ICON;
+    } else if (_tcsicmp(ext, _T(".mk3d")) == 0) {
+        iconIndex = IDI_MK3D_ICON;
     } else if (_tcsicmp(ext, _T(".mka")) == 0) {
         iconIndex = IDI_MKA_ICON;
     } else if (_tcsicmp(ext, _T(".mkv")) == 0) {
@@ -175,14 +185,14 @@ extern "C" __declspec(dllexport) int GetIconIndex(LPCTSTR ext)
         iconIndex = IDI_MPC_ICON;
     } else if (_tcsicmp(ext, _T(".mpcpl")) == 0) {
         iconIndex = IDI_MPCPL_ICON;
-    } else if (_tcsicmp(ext, _T(".cue")) == 0) {
-        iconIndex = IDI_CUE_ICON;
     } else if (_tcsicmp(ext, _T(".mpe")) == 0) {
         iconIndex = IDI_MPE_ICON;
     } else if (_tcsicmp(ext, _T(".mpeg")) == 0) {
         iconIndex = IDI_MPEG_ICON;
     } else if (_tcsicmp(ext, _T(".mpg")) == 0) {
         iconIndex = IDI_MPG_ICON;
+    } else if (_tcsicmp(ext, _T(".mpl")) == 0) {
+        iconIndex = IDI_MPL_ICON;
     } else if (_tcsicmp(ext, _T(".mpls")) == 0) {
         iconIndex = IDI_MPLS_ICON;
     } else if (_tcsicmp(ext, _T(".mpv2")) == 0) {
@@ -191,6 +201,8 @@ extern "C" __declspec(dllexport) int GetIconIndex(LPCTSTR ext)
         iconIndex = IDI_MPV4_ICON;
     } else if (_tcsicmp(ext, _T(".mts")) == 0) {
         iconIndex = IDI_MTS_ICON;
+    } else if (_tcsicmp(ext, _T(".mxf")) == 0) {
+        iconIndex = IDI_MXF_ICON;
     } else if (_tcsicmp(ext, _T(".ofr")) == 0) {
         iconIndex = IDI_OFR_ICON;
     } else if (_tcsicmp(ext, _T(".ofs")) == 0) {
@@ -213,6 +225,8 @@ extern "C" __declspec(dllexport) int GetIconIndex(LPCTSTR ext)
         iconIndex = IDI_RA_ICON;
     } else if (_tcsicmp(ext, _T(".ram")) == 0) {
         iconIndex = IDI_RAM_ICON;
+    } else if (_tcsicmp(ext, _T(".rec")) == 0) {
+        iconIndex = IDI_REC_ICON;
     } else if (_tcsicmp(ext, _T(".rm")) == 0) {
         iconIndex = IDI_RM_ICON;
     } else if (_tcsicmp(ext, _T(".rmi")) == 0) {
@@ -223,26 +237,34 @@ extern "C" __declspec(dllexport) int GetIconIndex(LPCTSTR ext)
         iconIndex = IDI_RMVB_ICON;
     } else if (_tcsicmp(ext, _T(".rp")) == 0) {
         iconIndex = IDI_RP_ICON;
+    } else if (_tcsicmp(ext, _T(".RPM")) == 0) {
+        iconIndex = IDI_RPM_ICON;
     } else if (_tcsicmp(ext, _T(".rt")) == 0) {
         iconIndex = IDI_RT_ICON;
+    } else if (_tcsicmp(ext, _T(".smi")) == 0) {
+        iconIndex = IDI_SMI_ICON;
     } else if (_tcsicmp(ext, _T(".smil")) == 0) {
         iconIndex = IDI_SMIL_ICON;
     } else if (_tcsicmp(ext, _T(".smk")) == 0) {
         iconIndex = IDI_SMK_ICON;
     } else if (_tcsicmp(ext, _T(".snd")) == 0) {
         iconIndex = IDI_SND_ICON;
+    } else if (_tcsicmp(ext, _T(".spx")) == 0) {
+        iconIndex = IDI_SPX_ICON;
+    } else if (_tcsicmp(ext, _T(".ssif")) == 0) {
+        iconIndex = IDI_SSIF_ICON;
     } else if (_tcsicmp(ext, _T(".swf")) == 0) {
         iconIndex = IDI_SWF_ICON;
+    } else if (_tcsicmp(ext, _T(".tak")) == 0) {
+        iconIndex = IDI_TAK_ICON;
+    } else if (_tcsicmp(ext, _T(".thd")) == 0) {
+        iconIndex = IDI_THD_ICON;
     } else if (_tcsicmp(ext, _T(".tp")) == 0) {
         iconIndex = IDI_TP_ICON;
     } else if (_tcsicmp(ext, _T(".trp")) == 0) {
         iconIndex = IDI_TRP_ICON;
     } else if (_tcsicmp(ext, _T(".ts")) == 0) {
         iconIndex = IDI_TS_ICON;
-    } else if (_tcsicmp(ext, _T(".rec")) == 0) {
-        iconIndex = IDI_REC_ICON;
-    } else if (_tcsicmp(ext, _T(".tak")) == 0) {
-        iconIndex = IDI_TAK_ICON;
     } else if (_tcsicmp(ext, _T(".tta")) == 0) {
         iconIndex = IDI_TTA_ICON;
     } else if (_tcsicmp(ext, _T(".vob")) == 0) {
