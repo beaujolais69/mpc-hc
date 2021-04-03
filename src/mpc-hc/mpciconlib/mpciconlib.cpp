@@ -123,8 +123,6 @@ extern "C" __declspec(dllexport) int GetIconIndex(LPCTSTR ext)
         iconIndex = IDI_FLV_ICON;
     } else if (_tcsicmp(ext, _T(".hdmov")) == 0) {
         iconIndex = IDI_HDMOV_ICON;
-    } else if (_tcsicmp(ext, _T(".iflv")) == 0) {
-        iconIndex = IDI_IFLV_ICON;
     } else if (_tcsicmp(ext, _T(".ifo")) == 0) {
         iconIndex = IDI_IFO_ICON;
     } else if (_tcsicmp(ext, _T(".ivf")) == 0) {
