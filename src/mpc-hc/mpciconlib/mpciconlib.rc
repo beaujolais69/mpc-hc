@@ -138,7 +138,7 @@ IDI_MTS_ICON            ICON                    "icons\\mts.ico"
 IDI_MXF_ICON            ICON                    "icons\\mxf.ico"
 IDI_OFR_ICON            ICON                    "icons\\ofr.ico"
 IDI_OFS_ICON            ICON                    "icons\\ofs.ico"
-IDI_oGA_ICON            ICON                    "icons\\oga.ico"
+IDI_OGA_ICON            ICON                    "icons\\oga.ico"
 IDI_OGG_ICON            ICON                    "icons\\ogg.ico"
 IDI_OGM_ICON            ICON                    "icons\\ogm.ico"
 IDI_OGV_ICON            ICON                    "icons\\ogv.ico"
@@ -178,7 +178,7 @@ IDI_WMP_ICON            ICON                    "icons\\wmp.ico"
 IDI_WMV_ICON            ICON                    "icons\\wmv.ico"
 IDI_WMX_ICON            ICON                    "icons\\wmx.ico"
 IDI_WV_ICON             ICON                    "icons\\wv.ico"
-IDI_wvx_ICON            ICON                    "icons\\wvx.ico"
+IDI_WVX_ICON            ICON                    "icons\\wvx.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
