@@ -45,8 +45,8 @@
 #define IDI_AOB_ICON                    14
 #define IDI_APE_ICON                    15
 #define IDI_APL_ICON                    16
-#define IDI_ASX_ICON                    17
-#define IDI_AMR_ICON                    18
+#define IDI_ASF_ICON                    17
+#define IDI_ASX_ICON                    18
 #define IDI_AU_ICON                     19
 #define IDI_AVI_ICON                    20
 #define IDI_BDMV_ICON                   21
