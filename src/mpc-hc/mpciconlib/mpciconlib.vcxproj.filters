@@ -234,6 +234,9 @@
     <None Include="icons\mp2.ico">
       <Filter>Resource Files\icons</Filter>
     </None>
+    <None Include="icons\mp2v.ico">
+      <Filter>Resource Files\icons</Filter>
+    </None>
     <None Include="icons\mp3.ico">
       <Filter>Resource Files\icons</Filter>
     </None>
